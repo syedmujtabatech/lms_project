@@ -1,0 +1,27 @@
+# Dependencies
+**/node_modules/
+laravel-lms/vendor/
+vendor/
+
+# Environment
+laravel-lms/.env.backup
+laravel-lms/.env.production
+
+# Build files
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Cache and logs
+laravel-lms/storage/*.key
+laravel-lms/storage/logs/*
+laravel-lms/storage/framework/cache/data/*
+laravel-lms/storage/framework/sessions/*
+laravel-lms/storage/framework/views/*
+.phpunit.result.cache
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
